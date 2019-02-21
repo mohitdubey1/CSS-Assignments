@@ -1,0 +1,610 @@
+body {
+    font-size: 16px;
+	overflow-x: hidden;
+}
+body,.main_container{
+	height: 100%;
+}
+body,.header_div,.footer_sing_up,.main_container,.bottom_div,.copyright_box{
+	width: 100%;
+}
+body,.networking_box h3,.database_box h3 , .packages_box h3,.price_box h3,.flxible_box h3,.experts_box h3,.item_joynet,.footer_navigation_box h4,.content_footer,.get_start{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.main_container,.main,.content_div,.service_div,.info_products,.navigation_center_div,.unorder_list,.joynet_public,.footer_sing_up,.footer_box3,.horizantal_line,.footer_navigation_box,.copyright_box,.scroll_bar{
+	margin: auto;
+}
+.header_div,.main,.main > div {
+	height: 140px;
+}
+.header_div{
+	background: #EEF0F2;
+}
+.main,.content_div,.footer_sing_up{
+    display: -webkit-flex;
+	display: -moz-flex;
+	display: flex;
+}
+.main ,.content_div,.footer_sing_up {
+    -webkit-justify-content: center;
+	-moz-justify-content: center;
+	justify-content: center;
+}
+.main > div {
+	width: 1200px;
+}
+.joyent_div,.navigation_div,.navigation,.horizentol_line,.right_div,.hower_trangle,.right_menu > div,.btn_box>div,.info_products > div,.public_outside_div,.unorder_list li,.public_outside_div > div,.public_click,.footer_navigation_box > div,.copyright_para,.right_social_cite,.right_social_cite li,.footer_menu div{
+	float: left;
+}
+.joyent_div{
+	width: 181px;
+	height: 155px;
+	background: #FF6600 url('css_joyent_image/logo-block.jpg') 11px 77px no-repeat;
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+.navigation_div,.horizentol_line{
+	height: 110px;
+}
+.navigation_div,.heading_h1_div{
+	width: 650px;
+}
+.navigation_div{
+	border: 15px solid transparent;
+	margin: 0 0 0 15px;
+}
+.navigation,.unorder_list,.footer_navigation_box ul,.right_social_cite li{
+	list-style: none;
+}
+.navigation{
+	height: 100px;
+	width: 102px;
+	font: bold 14px Arial Narrow;
+	margin: 3px 0 0 4px;
+	letter-spacing: 1px;
+}
+.navigation1{
+	margin: 3px 0 0 10px;
+	letter-spacing: 0.8px;
+	font: 14px Arial Narrow;
+}
+.navigation>li,.start_btn{
+	height: 22px;
+}
+.navigation>li{
+	width: 120px;
+	margin: 0 auto;
+}
+.navigation a,.right_menu a,.database_box a,.packages_box a,.price_box a,.flxible_box a,.experts_box a,.product_demo a,.navigation a:hover,.right_menu a:hover,.database_box a:hover,.packages_box a:hover,.price_box a:hover,.flxible_box a:hover,.experts_box a:hover,.product_demo a:hover,.paragraph_div a,.get_started_box,.get_started_box:hover,.footer_navigation_box a,.copyright_para a{
+	text-decoration: none;
+}
+.navigation a,.paragraph_div a,.content_footer{
+	color: #FF6600;
+}
+.product_demo p{
+	margin: 5px 0 0 1px;
+}
+.public_span{
+	color: #333333;
+}
+a:hover,.right_menu a:hover,.paragraph_div a:hover,.footer_navigation_box a:hover,.copyright_para a:hover,.navigation a:hover,.public_span:hover{
+	text-decoration: underline;
+}
+.horizentol_line{
+	border-left: 1px solid #999999;
+}
+.right_div{
+    height: 130px;
+}
+.right_div,.right_menu,.btn_box{
+    width: 300px;
+}
+.right_menu{
+    height: 85px;
+    margin: 10px 0 0;
+	font: 10px Arial;
+}
+.right_menu a,.networking_box,.database_box,.packages_box,.price_box,.flxible_box,.experts_box,.database_box a,.packages_box a,.price_box a,.flxible_box a,.experts_box a,.public_outside_div > div,.product_demo a{
+	color: #333333;
+}
+.search_icon,.sign_up_now,.content_footer,.div_or{
+	height: 20px;
+}
+.search_icon{
+	width: 33px;
+	background: url('css_joyent_image/search-icon.svg') 4px 3px no-repeat;
+}
+.vertical_line{
+	height: 27px;
+	border-left: 1px solid #CCCCCC;
+}
+.blog_div,.about_div,.dev_center_div{
+	border: 7px solid transparent;
+	height: 15px;
+}
+.blog_div{
+	margin: 0 2px 0 3px;
+}
+.blog_div,.chat_img1{
+	width: 30px;
+}
+.about_div{
+	margin: 0 0 0 3px;
+	width: 38px;
+}
+.dev_center_div{
+	margin: 0 3px 0;
+}
+.btn_box{
+	font: 14px Arial;
+}
+.btn_box,.bottom_info{
+	height: 40px;
+}
+.sign_up_now{
+	width: 138px;
+	text-align: right;
+	border: 5px solid transparent;
+}
+.btn_box_get{
+	height: 30px;
+	width: 140px;
+	margin: 1px 0 0 9px;
+}
+.footer_sing_up ,.unorder_list li:hover,.start_btn,.get_started_box,.footer_navigation_box a,.bottom_info,.scroll_bar,.text-joynet-logo,.footer_logo{
+	color: #fff;
+}
+.start_btn,.get_started_box,.get_start{
+	background: #FF6600;
+}
+.start_btn{
+	width: 113px;
+	border: 0;
+	font: bold 14px Arial;
+	padding: 4px 0 0 14px;
+}
+.content_div{
+    height: 387px;
+}
+.joyent_info{
+    width: 656px;
+    height: 340px;
+}
+.joyent_logo{
+    height: 363px;
+    width: 500px;
+    background: url('css_joyent_image/network-gray.jpg') 28px 0 no-repeat;
+}
+.networking_box h3,.database_box h3 , .packages_box h3,.price_box h3,.flxible_box h3,.experts_box h3,.item_joynet,.joynet_public h2,.item_joynet,.footer_sing_up,.tag_para,.footer_navigation_box h4,.content_footer,.footer_menu,.get_start,h1,h2{
+    font-style: normal;
+}
+.heading_h1_div{
+	border-top: 50px solid transparent;
+}
+.heading_h1_div,.chat_img1{
+	height: 70px;
+}
+.paragraph_div{
+	height: 250px;
+	width: 640px;
+	margin: 0 0 0 9px;
+}
+div.paragraph_div p {
+    font-size: 25px;
+    line-height: 45px;
+    font-family: Batang;
+    letter-spacing: -1px;
+}
+div.paragraph_div p ,.footer_navigation_box h4{
+    font-weight: normal;
+}
+.service_div,.joynet_public,.horizantal_line,.footer_navigation_box{
+	width: 1170px;
+}
+.paragraph_div a:hover{
+	color: #b34700;
+}
+.service_div{
+	height: 675px;
+}
+.info_products,.content_div,.main{
+	width: 1350px;
+}
+.info_products > div,.public_outside_div{
+	margin: 5px;
+}
+.info_products > div{
+	height: 293px;
+	width: 378px;
+	border: 1px solid #CCCCCC;
+}
+.networking_box,.database_box,.packages_box,.price_box,.flxible_box,.experts_box,.unorder_list,.item_joynet,.joynet_public h2,.public_outside_div > div,.get_start,.tag_para{
+	text-align: center;
+}
+.networking_box,.database_box,.packages_box,.price_box,.flxible_box,.experts_box,.public_outside_div > div{
+	height: 233px;
+	border: 30px solid transparent;
+}
+.networking_box,.database_box,.packages_box,.price_box,.flxible_box,.experts_box,figure,.public_outside_div > div{
+	width: 318px;
+}
+figure{
+	height: 111px;
+}
+.networking_figure{
+	background: url('css_joyent_image/icon-container.svg') 60px 30px no-repeat;
+}
+.networking_box h3,.database_box h3 , .packages_box h3,.price_box h3,.flxible_box h3,.experts_box h3,.footer_sing_up,.content_footer,.get_start{
+    font-weight: bold;
+}
+.networking_box h3,.database_box h3 , .packages_box h3,.price_box h3,.flxible_box h3,.experts_box h3{
+	border-top: 22px solid transparent;
+	border-bottom: 11px solid transparent;
+	line-height: 22px;
+}
+.networking_box h3,.database_box h3 , .packages_box h3,.price_box h3,.flxible_box h3,.experts_box h3,.item_joynet{
+    font-size: 20px;
+}
+.database_figure{
+	background: url('css_joyent_image/icon-cart.svg') 110px 28px no-repeat;
+	margin: 0 0 5px 0;
+}
+.packages_figure{
+	background: url('css_joyent_image/icon-node.svg') 112px 11px no-repeat;
+	height: 116px;
+}
+.price_figure{
+	background: url('css_joyent_image/icon-performance.svg') 114px 15px no-repeat;
+}
+.flxible_figure{
+	background: url('css_joyent_image/icon-flexible.svg') 117px 9px no-repeat;
+}
+.experts_figure{
+	background: url('css_joyent_image/icon-support.svg') 115px 16px no-repeat;
+}
+.navigation_center_div h2{
+	height: 69px;
+	margin: 0 0 0 10px;
+}
+.experts_figure,.flxible_figure,.price_figure{
+	height: 115px;
+}
+.navigation_center_div{
+	height: 365px;
+}
+.navigation_center_div,.nav_btn_div,.unorder_list{
+	width: 1020px;
+}
+.nav_btn_div{
+	height: 94px;
+	border-left: 60px solid transparent;
+}
+.unorder_list{
+    height: 64px;
+	border-width: 5px 5px 5px 0;
+	border-style: solid;
+	border-color: transparent;
+    color: #ff6600;
+    z-index: 0;
+}
+body,.footer_menu{
+	line-height: 1.49;
+}
+.public_click,li.active:after,.active,.trans_div,.text-joynet-logo,.logo_brand {
+    position: relative;
+}
+.public_click{
+	background: url('css_joyent_image/click.jpg') no-repeat;
+	height: 10px;
+	width: 10px;
+    right: 21px;
+    top: 6px;
+}
+.sub_menu,.active{
+    border: 2px solid #ff6600;
+}
+.hower_trangle{
+    height: 80px;
+}
+.hower_trangle,.get_started_box{
+    width: auto;
+}
+.unorder_list li:hover,.start_btn:hover,.get_started_box:hover,.get_start:hover{
+    background: #b34700;
+}
+.unorder_list li:hover{
+    border-color: #b34700;
+}
+.item_joynet{
+    min-height: 130px;
+    line-height: 31px;
+	color: #666666;
+}
+.item_joynet,.navigation_div{
+	padding: 0 0 0 10px;
+}
+.joynet_public{
+	height: 754px;
+}
+.joynet_public h2{
+	margin: 0 0 6px;
+}
+.joynet_public h3{
+	font-size: 20px;
+}
+.public_outside_div{
+	height: 342px;
+	width: 380px;
+	background: #E2E2E2;
+}
+.wanelo_figure,.voxer_figure{
+	padding: 0 0 10px;
+}
+.wanelo_figure{
+	background: url('css_joyent_image/industry-wanelo.svg') 116px 12px no-repeat;
+}
+.chocolate_figure{
+	background: url('css_joyent_image/industry-digital-chocolate.svg') 109px 21px no-repeat;
+	padding: 0 0 15px;
+}
+.voxer_figure{
+	background: url('css_joyent_image/industry-voxer.svg') 90px 21px no-repeat;
+}
+.modcloth_figure{
+	background: url('css_joyent_image/industry-modcloth.svg') 109px 19px no-repeat;
+	padding: 10px 0;
+}
+.tripshare_figure{
+	background: url('css_joyent_image/industry-tripshare.svg') 116px 14px no-repeat;
+	padding: 9px 0 10px;
+}
+.bulb_figure{
+	background: url('css_joyent_image/industry-bulb.svg') 117px 12px no-repeat;
+	padding: 9px 0;
+}
+.public_heding{
+	margin: 15px 0 6px;
+}
+.bulb_heding{
+    max-width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.digital_heding{
+	border-top: 25px solid transparent;
+}
+.bottom_div{
+    height: 641px;
+    margin: 0;
+    padding: 0;
+    border-top: 24px solid transparent;
+}
+.footer_sing_up {
+    height: 91px;
+    background: #333333;
+}
+.get_started_box{
+    display: inline-block;
+    padding: 5px 15px;
+    margin-left: 10px;
+	font-size: 15px;
+}
+.chat_img1{
+	background: url('css_joyent_image/contact.svg') no-repeat 6px 21px;
+}
+.content_footer{
+	width: 245px;
+	padding: 18px 0 0 3px;
+    line-height: 18px;
+}
+.content_footer:hover{
+	color: #B34700;
+}
+.footer_menu{
+	width: 740px;
+	margin: 18px 0 0;
+}
+.bottom_info{
+    width: 311px;
+    padding: 14px 0 0 6px;
+}
+.get_start,.active{
+	height: 26px;
+}
+.get_start{
+	width: 110px; 
+	margin: 12px 0 0 3px;
+    font-size: 15px;
+	padding: 5px 0 0;
+}
+.get_start,.get_started_box,.start_btn{
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.div_or{
+    width: 19px;
+    padding: 14px 0 0 11px;
+}
+.footer_box2{
+    background-color: #606161;
+    height: 527px;
+    border-top: 23px solid transparent;
+}
+.footer_box3{
+	height: 138px;
+	width: 1140px;
+}
+.joynet_svg{
+	width: 700px;
+	height: 76px;
+	background: url('css_joyent_image/logo.jpg') 473px 0 no-repeat;
+}
+.tag_para,h1,h2,.footer_menu{
+    font-weight: 100;
+}
+.tag_para,.footer_menu,.content_footer,.footer_menu{
+	font-size: 18px;
+}
+.tag_para,.copyright_para,.copyright_para a{
+    color: #9B9C9C;
+}
+.horizantal_line{
+	border-top: 1px solid #707171;
+}
+.footer_navigation_box{
+	height: 224px;
+	border-top: 26px solid transparent;
+}
+.footer_navigation_box h4{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.4;
+    padding: 0 0 12px;
+}
+.footer_navigation_box ul{
+	font-size: 14px;
+}
+.footer_navigation_box ul,.tag_para{
+	margin: 0 0 11px;
+}
+.footer_navigation_box li{
+	margin: 0 0 5px;
+	display: list-item;
+    font-size: 14px;
+}
+.footer_navigation_box > div{
+	width: 195px;
+	height: 175px;
+	padding: 0 15px;
+	display: block;
+}
+.copyright_box,.right_social_cite{
+	height: 57px;
+}
+.copyright_box{
+	padding: 15px 0 0;
+}
+.copyright_para{
+	font-size: 12px;
+	border-left: 105px solid transparent;
+	width: 980px;
+}
+.right_social_cite{
+	width: 150px;
+}
+.right_social_cite li{
+	height: 25px;
+	width: 25px;
+	margin: 0 5px 0 0;
+}
+.twitter_img{
+	background: url('css_joyent_image/twitter-color.svg');
+}
+.linkedin_img{
+	background: url('css_joyent_image/linkedin-color.svg');
+}
+.facebook_img{
+	background: url('css_joyent_image/facebook-color.svg');
+}
+.google_img{
+	background: url('css_joyent_image/google-color.svg');
+}
+.rss_img{
+	background: url('css_joyent_image/rss-color.svg');
+}
+.search_icon,.start_btn,.public_click,.unorder_list li:hover,.right_social_cite li,.public_span,.chat_img1,.content_footer,.get_start,.joyent_div{
+	cursor: pointer;
+}
+.scroll_bar{
+	width: 1163px;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	height: 39px;
+}
+h1 {
+    font-size: 34px;
+    line-height: 43px;
+    color: #333333;
+	margin: 0 0 0 8px; 
+}
+h2 {
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: black;
+}
+.trans_div{
+	height: 50px;
+    width: 35px;
+    background-color: transparent;
+    left: 80px;
+}
+h1,h2,.footer_menu,.tag_para{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.sub_menu{
+   text-indent: 0;
+    font-size: 26px;
+    line-height: 26px;
+    background: white;
+	padding: 12px 14px 12px 14px;
+	margin:0 3px 0 4px;
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+li.active:after,.footer_navigation_box > div {
+	box-sizing: border-box;
+}
+li.active:after {
+    border: solid transparent;
+    content: " ";
+	top: 30px;
+    border-top-color: #ff6600;
+    border-width: 15px;
+}
+.active {
+    color: white;
+	background-color: #ff6600;
+	width: 159px;
+}
+ul.unorder_list li:hover:after {
+    border-top-color: #b34700;
+}
+.text-joynet-logo{
+	height: 51px;
+    width: 110px;
+    background-color: #FF6600;
+    top: 80px;
+    left: 52px;
+}
+.logo_brand{
+    font-size: 40px;
+    bottom: 10px;
+    left: 1px;
+	letter-spacing: -3px;
+}
+.font_a{
+	font-size: 30px;
+}
+.footer_logo,.footer_menu{
+	height: 60px;
+}
+.footer_logo{
+    width: 178px;
+    background: #606161;
+    float: right;
+}
+.footer_brand{
+	font-size: 40px;
+}
+.scrool_p{
+	white-space: nowrap;
+}

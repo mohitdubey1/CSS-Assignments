@@ -1,0 +1,276 @@
+html,body{
+	padding: 0;
+	}
+html{
+	height: 100%;
+}
+html,header h1,.design-selection h3,.design-archives,.design-archives h3,.zen-resources,.zen-resources h3 {
+	margin: 0;
+}
+html,body,.extra2,.extra1{
+	width: 100%;
+}
+body,.sidebar,.design-selection a.designer-name{
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+	margin: auto;
+	font-size: 14.4px;
+	background: #F0ECD6 url(css_assignment2_image/water.png) top repeat-x;
+	}
+a:link,a:visited,a:hover, a:active{
+	text-decoration: none;
+}
+a:link,a:hover, a:active{
+	color: #993300;
+	}
+a:visited {
+	color: #999900;
+	}
+.summary_div,.page-wrapper,header,footer,.sidebar,.extra1,.extra5,.extra4,header h2{
+	position: relative;
+}
+.summary_div{
+	bottom: 65px;
+}
+.intro{
+	height: 600px;
+}
+a:hover, a:active {
+	border-bottom: 1px dotted #993300;
+	}
+.page-wrapper {
+	width: 700px;
+	margin: 0 auto;
+	height: 2100px;
+	background: url(css_assignment2_image/squid-blowfish.png) right top no-repeat;
+	z-index: 4;
+	}
+header h1,header h2,.preamble h3,.explanation h3,.participation h3,.benefits h3,.requirements h3,.design-selection h3,.design-archives h3,.zen-resources h3{
+	overflow: hidden;
+	white-space: nowrap;
+}
+header h1,header h2,.zen-resources ul{
+	color: transparent;
+}
+header h1 {
+	background: url(css_assignment2_image/title.png) no-repeat;
+	height: 195px;
+	width: 290px;
+	}
+header h2 {
+	background: url(css_assignment2_image/beauty.png) no-repeat;
+	height: 234px;
+	width: 33px;
+	float: left;
+    top: 37px;
+    left: 8px;
+	}
+header,.extra2{
+	z-index: 5;
+}
+.summary,.preamble,.supporting,.extra5{
+	width: 385px;
+}
+.summary {
+	background: url(css_assignment2_image/top.png) no-repeat;
+	}
+.summary p,.preamble p,.supporting p {
+	border-right: 60px solid transparent;
+	border-left: 60px solid transparent;
+}
+.summary p,.requirements p:nth-child(6),.design-selection li,.design-selection a.designer-name{
+	font-style: italic;
+}
+.summary p,.requirements p:nth-child(6),footer {
+	text-align: center;
+}
+.wrapper nav{
+	padding: 8px 0 0;
+    font-size: 11.5px;
+}
+.zen-resources {
+	font-size: 11.5px;
+}
+.zen-resources ul{
+	border-width: 10px 0 0 10px;
+    border-style: solid;
+}
+.summary p {
+	font-size: 10px;
+	line-height: 120%;
+	}
+.summary p:first-child {
+	border-top: 60px solid transparent;
+	}
+.summary p:last-child,.requirements p:nth-child(6) a,.design-selection a{
+	font-style: normal;
+}
+.summary p:last-child {
+	font-variant: small-caps;
+	font-size: 12px;
+	line-height: 12px;
+	}
+.preamble,.requirements,.requirements p:nth-child(6),.design-selection{
+	margin-bottom: 0;
+}
+.preamble h3,.explanation h3,.participation h3,.benefits h3,.requirements h3,.design-selection h3,.design-archives h3,.zen-resources h3{
+	text-indent: 100%;
+}
+.preamble h3,.explanation h3,.participation h3,.benefits h3,.requirements h3{
+	height: 45px;
+}
+.preamble h3,.supporting h3{
+	margin-top: 0;
+}
+.preamble h3{
+	background: url(css_assignment2_image/enlightenment.png) 37px 0 no-repeat;
+	width: 342px;
+	}
+.preamble p,.supporting p{
+	line-height: 140%;
+}
+.preamble p {
+	font-size: 11.9px;
+	}	
+.supporting {
+	border-bottom: 600px solid transparent;
+	margin: 1px 0 0;
+	}
+.supporting p {
+	font-size: 11.7px;
+	}	
+.explanation,.participation,.benefits,.requirements p:nth-child(6),.design-archives,.zen-resources,.preamble,.summary,.design-selection{
+	padding: 0 0 20px;
+}
+.explanation,.preamble,.participation,.benefits,.requirements {
+	background: url(css_assignment2_image/back.png);
+}
+.explanation h3,.participation h3,.benefits h3,.requirements h3 {
+	border-left: 70px solid transparent;
+	width: 242px;
+}
+.explanation h3 {
+	background: url(css_assignment2_image/about.png) no-repeat;
+}
+.participation h3 {
+	background: url(css_assignment2_image/participation.png) no-repeat;
+}	
+.benefits h3 {
+	background: url(css_assignment2_image/benefits.png) no-repeat;	
+	}
+.requirements h3 {
+	background: url(css_assignment2_image/requirements.png) no-repeat;
+}
+.requirements p:nth-child(6) {
+	background: url(css_assignment2_image/huzzah.png) 12px -45px no-repeat;
+	border-top: 45px solid transparent;
+}
+.requirements p:nth-child(6) a,footer,.design-selection a {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.requirements p:nth-child(6) a,.design-selection a{
+	display: block;	
+}
+.requirements p:nth-child(6) a,footer {
+	text-transform: uppercase;
+}
+.requirements p:nth-child(6) a:hover,.design-selection a:hover {
+	border-style: none;
+	color: #333333;
+	text-decoration: underline;
+}
+footer {
+	bottom: 172px;
+	border-left: 350px solid transparent;  
+	z-index: 6;
+	background: url(css_assignment2_image/footer.png) no-repeat;
+	height: 57px;
+	width: 252px;
+	padding-top: 15px;
+	font-size: 11px;
+	visibility: visible;
+}
+.sidebar {
+	width: 225px;
+	bottom: 3163px;
+	left: 375px;
+	line-height: 20px;
+	}
+.extra3{
+	background: url(css_assignment2_image/menu-top.png)0 6px no-repeat;
+	height: 110px;
+	width: 220px;
+}
+.sidebar ul {
+	border-left: 35px solid transparent;
+	padding: 0 0 0 10px;
+	list-style-image: url(css_assignment2_image/bullet.png);
+	list-style-position: outside;
+	margin: 5px 0 0 0;
+	}
+.sidebar li {
+	margin: 0 0 10px;
+	line-height: 130%;
+	border-right: 30px solid transparent;
+	}
+.design-selection,.design-archives,.zen-resources{
+	background: url(css_assignment2_image/menu-back.png);
+}
+.design-selection h3,.design-archives h3,.zen-resources h3{
+	height: 15px;
+	width: 200px;
+}
+.design-selection h3 {
+	background: url(css_assignment2_image/select.png) no-repeat;
+}
+.design-selection a,.requirements p:nth-child(6) a{
+	font-weight: bold;
+}
+.design-selection a:hover {
+	border-width: 0;
+}
+.design-selection a.designer-name {
+	display: inline;
+	font-weight: normal;
+}	
+.design-archives h3 {
+	background: url(css_assignment2_image/archives.png) no-repeat;
+}
+.zen-resources h3 {
+	background: url(css_assignment2_image/resources.png) no-repeat;
+}
+.sidebar .wrapper,.extra4{
+	background: url(css_assignment2_image/menu-end.png) bottom no-repeat;
+}
+.sidebar .wrapper {
+	border-bottom: 352px solid transparent;
+	}
+.extra2 {
+	background: url(css_assignment2_image/bottom.png) center no-repeat;
+	height: 200px;
+	position: fixed;
+	bottom: 0;
+}
+.extra1 {
+	z-index: 2;
+	height: 800px;
+	bottom: 900px;
+	background: url(css_assignment2_image/critters.png) center no-repeat;
+}
+.extra5{
+    height: 400px;
+    bottom: 672px;
+    background: url('css_assignment2_image/end.jpg') no-repeat;
+    right: 1px;
+}
+.extra4 {
+	height: 352px;
+	bottom: 353px;
+}
+.requirements p:nth-child(5){
+	letter-spacing: -0.1px;
+}
+.extra6{
+	
+}

@@ -1,0 +1,108 @@
+.container{
+	width: 320px;
+	height: 496px;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 2px 9px 3px #E8E8E8;
+	float: left;
+	visibility: hidden;
+}
+.rotade{
+	height: 12px;
+	width: 12px;
+	border-width: 1px 0 0 1px;
+	border-style: solid;
+	background: #fff;
+	border-color: #ccc;
+	transform: rotate(45deg);
+	position: relative;
+	left: 73px;
+	bottom: 7px;
+}
+.sub_container{
+	width: 260px;
+	height: 399px;
+	border-width: 22px 29px;
+	border-style: solid;
+	border-color: transparent;
+}
+.sub_container>div{
+	height: 82px;
+	width: 82px;
+	display: inline-block;
+	margin: 0 0 13px 0;
+	cursor: pointer;
+	border: 1px solid #fff;
+	}
+.sub_container>div:hover{
+	border: 1px solid #E5E5E5;
+}
+.sub_container > div > div:first-child{
+	height: 62px;
+	width: 84px;
+}
+.sub_container > div > div:last-child{
+	height: 21px;
+	width: 84px;
+	text-align: center;
+	font: 14px Arial;
+	padding: 3px 0 0;
+}
+.box1{
+	background: url('my_accunt.png') 16px 2px no-repeat;
+}
+.box2{
+	background: url('search.png') 13px 2px no-repeat;
+}
+.box3{
+	background: url('google+.png') 17px 0  no-repeat;
+}
+.box4{
+	background: url('mail.png') 11px 6px no-repeat;
+}
+.box5{
+	background: url('calender.png') 19px 5px no-repeat;
+}
+.box6{
+	background: url('drive.png') 12px 7px no-repeat;
+}
+.box7{
+	background: url('doc.png') 16px 8px no-repeat;
+}
+.box8{
+	background: url('sheets.png') 20px 9px no-repeat;
+}
+.box9{
+	background: url('slides.png') 22px 8px no-repeat;
+}
+.box10{
+	background: url('sites.png') 11px 10px no-repeat;
+}
+.box11{
+	background: url('groups.png') 18px 7px no-repeat;
+}
+.box12{
+	background: url('contacts.png') 20px 9px no-repeat;
+}
+.footer_div{
+	height: 29px;
+	width: 317px;
+	background: #F5F5F5;
+	cursor: pointer;
+	text-align: center;
+	font: 14px Arial;
+	padding: 11px 0 0 3px;
+}
+.google_hover{
+	height: 50px;
+	width: 100px;
+	background: #000;
+	margin: 50px;
+	float: left;
+	cursor: pointer;
+}
+.google_hover:hover+.container{
+	visibility: visible;
+	position: relative;
+	top: 110px;
+	right: 170px;
+}

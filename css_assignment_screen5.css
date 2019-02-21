@@ -1,0 +1,140 @@
+*{
+	margin:0;
+	padding:0;
+}
+.container,.save_close_btn,.menu_div{
+	border: 1px solid;
+}
+.container{
+	height: 634px;
+	margin: 10px;
+	border-color: #868686 #ABABAB #A9A9A9;
+	-webkit-box-shadow: 1px 1px 1px 1px #C2C2C2;
+	-moz-box-shadow: 1px 1px 1px 1px #C2C2C2;
+	box-shadow: 1px 1px 1px 1px #C2C2C2;
+}
+.editor_div,.container,.menu_div{
+	width: 701px;
+}
+.drawing_div{
+	border: 16px solid transparent;
+	border-left: 34px solid transparent;
+	border-bottom: 12px solid transparent;
+	width: 631px;
+}
+.drawing_text{
+	height: 20px;
+	width: 300px;
+	font: 16px Arial;
+	border: 9px solid transparent;
+}
+.save_close_div{
+	height: 30px;
+	width: 95px;
+}
+.save_close_btn{
+	width: 88px;
+	border-color: #4476CB #3F7FE2 #3F7ABA #417CCF;
+	color: #fff;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #488EFF),
+	color-stop(1, #4583E7),
+	color-stop(1, #458BFB)
+);
+background-image: -webkit-linear-gradient(bottom, #488EFF 0%, #4583E7 100%, #458BFB 100%);
+background-image: -moz-linear-gradient(bottom, #488EFF 0%, #4583E7 100%, #458BFB 100%);
+background-image: linear-gradient(to bottom, #488EFF 0%, #4583E7 100%, #458BFB 100%);
+}
+.menu_div{
+	border-color: #E4E4E4 #fff #E7E7E7 #ABABAB;
+	border-left: 0;
+	border-right: 0;
+	background-color: #F5F5F5;
+}
+.menu_div > div,.drawing_text,.menu_box1,.menu_box3,.menu_box4,.menu_box7,.menu_box8,.menu_box9,.menu_box10{
+	float:left;
+}
+.editor_div{
+	height: 540px;
+	background-image: url("css_screen5_image/picture_editor.jpg");
+}
+.action_div{
+	width: 102px;
+}
+.undo_redu_div{
+	width: 94px;
+}
+.zoom_div,.menu_box6{
+	width: 43px;
+}
+.picture_div{
+	width: 154px;
+}
+.action_div,.picture_div{
+	border-right: 1px solid #E6E6E6;
+}
+.undo_redu_div,.zoom_div{
+	border-right: 2px solid #E6E6E6;
+}
+.action_div,.undo_redu_div,.zoom_div,.picture_div,.menu_div,.menu_box1,.menu_box2,.menu_box3,.menu_box4,.menu_box5,.menu_box6,.menu_box7,.menu_box8,.menu_box9,.menu_box10,.menu_box11{
+	height: 35px;
+}
+.menu_box1{
+	width: 84px;
+	padding: 11px 0 0;
+}
+.menu_box1,.save_close_btn{
+	font: bold 11px Arial;
+}
+.menu_box2{
+	width: 18px;
+	background-image: url('css_screen5_image/select_menu.jpg');
+}
+.menu_box3{
+	width: 30px;
+	background-image: url('css_screen5_image/undo.jpg');
+}
+.menu_box4{
+	width: 25px;
+	background-image: url('css_screen5_image/redo.jpg');
+}
+.menu_box5{
+	width: 39px;
+	background-image: url('css_screen5_image/filter.jpg');
+}
+.menu_box6{
+	background-image: url('css_screen5_image/zoom_in.jpg');
+}
+.menu_box7{
+	width: 34px;
+	background-image: url('css_screen5_image/pointer.jpg');
+}
+.menu_box8{
+	width: 22px;
+	background-image: url('css_screen5_image/forword_slas.jpg');
+}
+.menu_box9{
+	background-image: url('css_screen5_image/shapes.jpg');
+}
+.menu_box10{
+	background-image: url('css_screen5_image/crope_text.jpg');
+}
+.menu_box11{
+	width: 28px;
+	background-image: url('css_screen5_image/choose_image.jpg');
+}
+.action_label,.menu_box11,.menu_box5,.menu_box2,.save_close_div{
+	float: right;
+}
+.save_close_btn,.drawing_div{
+	height: 29px;
+}
+.menu_box10,.menu_box9{
+	width: 35px;
+}

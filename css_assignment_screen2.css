@@ -1,0 +1,225 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 660px;
+	height: 448px;
+	border: 1px solid #CBCBCB;
+	margin: 5px 8px;
+	-webkit-box-shadow: 1px 1px 1px 1px #DADADA;
+	-moz-box-shadow: 1px 1px 1px 1px #DADADA;
+	box-shadow: 1px 1px 1px 1px #DADADA;
+}
+.sub_container{
+	height: 350px;
+	width: 590px;
+	border: 32px solid transparent;
+}
+.left_div,.right_div{
+	height: 308px;
+	font-size: 13px;
+}
+.left_div{
+	width: 294px;
+	border-left: 13px solid transparent;
+}
+.left_div,.btn_left,.recip_left,.img_div > div{
+	float: left;
+}
+.recip_right,.float_chk,.right_div{
+	float: right;
+}
+.subject_text,.message_text,.subject_text,.send_btn,.cancel_btn{
+	border: 1px solid;	
+}
+.recip_right{
+    right: 3px;
+}
+.right_div{
+	margin: 0 0 0 1px;
+}
+.send_msg,.recipients,.left_div,.right_div{
+	font-family: Arial;
+}
+.send_msg{
+	width: 490px;
+	height: 38px;
+	border: 2px solid transparent;
+    margin: 0 0 0 8px;
+}
+.subject_text{
+	height: 22px;
+	width: 263px;
+	padding: 1px 0 0 9px;	
+}
+input:focus { 
+    outline: none !important;
+    border-color: #4D90FE;
+	-webkit-box-shadow: 1px 1px 1px #CDCDCD inset;
+	-moz-box-shadow: 1px 1px 1px #CDCDCD inset;
+	box-shadow: 1px 1px 1px #CDCDCD inset;
+}
+.message_text{
+	height: 176px;
+}
+.type_msg{
+	height: 177px;
+}
+.send_chk1,.send_chk2{
+	height: 17px;
+	width: 270px;
+	letter-spacing: 0.5px;
+}
+.send_chk2{
+	bottom: 1px;
+}
+.box_div{
+	width: 280px;
+	height: 25px;
+}
+.box_sub,.msg_div,.message_text,.mail_chk{
+	width: 272px;
+}
+.msg_div{
+	border-top: 15px solid transparent;
+}
+.msg_text_div{
+	height: 158px;
+}
+.send_copy{
+	top: 7px;
+    left: 4px;
+}
+.mail_chk{
+    margin: 1px 0 0 1px;
+}
+hr{
+	border: 0;
+    border-top:1px  solid #EBEBEB;
+	width: 274px;
+}
+.recipients_div{
+	height: 24px;
+	margin: 1px 0 0 1px;
+	width: 275px;
+}
+.img_div{
+	margin: 8px 0 2px;
+	height: 39px;
+	width: 276px;
+}
+.allone_color{
+	color: #0066CC;
+}
+.select_color{
+	color: #9D9D9D;
+}
+.div_btn{
+	clear: both;
+	width: 400px;
+	margin: 0 12px;
+}
+.send_btn,.cancel_btn{	
+	width: 72px;
+	height: 29px;
+	font-weight: bold;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	font-size: 11px;
+    margin: 3px 0 0;
+}
+.send_btn{
+	margin: 0 10px 0 0;
+	border-color: #4377CD #4376C7 #4977B5 #4977B5;
+	color: #fff;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #4C91F9),
+	color-stop(1, #4588F4),
+	color-stop(1, #4A8CEF)
+);
+background-image: -webkit-linear-gradient(bottom, #4C91F9 0%, #4588F4 100%, #4A8CEF 100%);
+background-image: -moz-linear-gradient(bottom, #4C91F9 0%, #4588F4 100%, #4A8CEF 100%);
+background-image: linear-gradient(to bottom, #4C91F9 0%, #4588F4 100%, #4A8CEF 100%);
+}
+.cancel_btn{
+	margin-left: 6px;
+	border-color: #DADADA #DADADA #DCDCDC;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #F5F5F5),
+	color-stop(1, #F2F2F2),
+	color-stop(1, #F4F4F4)
+);
+background-image: -webkit-linear-gradient(bottom, #F5F5F5 0%, #F2F2F2 100%, #F4F4F4 100%);
+background-image: -moz-linear-gradient(bottom, #F5F5F5 0%, #F2F2F2 100%, #F4F4F4 100%);
+background-image: linear-gradient(to bottom, #F5F5F5 0%, #F2F2F2 100%, #F4F4F4 100%);
+}
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	border: 1px solid #c6c6c6;
+	border-image: -ms-linear-gradient(#fff, #fff, #fff);
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	height: 13px;
+	top: 10px;
+	width: 13px;
+	outline:0;
+}
+input[type="checkbox"]:checked:after{
+	background: url(chk_img/chk.png)  0 0 / 20px;
+	content: '';
+	display: block;
+	height: 21px;
+	width: 21px;
+	bottom: 6px;
+	right: 4px;
+}
+.mail_chk,.div_btn{
+	border: 1px solid transparent;
+	height: 50px;
+}
+.send_copy,input[type="checkbox"] ,input[type="checkbox"]:checked:after,.prem_photo,.avinash_photo,.recip_right,.send_chk2{
+	position: relative;
+}
+.prem_photo,.avinash_photo{
+	height: 32px;
+	width: 32px;	
+}
+.prem_photo,.avinash_photo,input[type="checkbox"] {
+	right: 1px;
+}
+.div_box2{
+    width: 146px;
+    padding: 8px 0 0 14px;
+}
+.div_box3{
+    height: 30px;
+    width: 68px;
+}
+.prem_photo{
+	background: url('css_screen2_image/pete.jpg');
+}
+.avinash_photo{
+	background: url('css_screen2_image/avinash_dubey.jpg');
+}
+.msg_div,.div_box2,.box_sub{
+	height: 20px;
+}
+.type_msg,.right_div{
+	width: 281px;
+}
+.mail_chk,.img_div{
+	font-size: 12px;
+}
+.message_text,.subject_text{
+	border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+}

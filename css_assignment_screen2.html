@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Send message</title>
+		<link rel="stylesheet" type="text/css" href="css_assignment_screen2.css"/>
+	</head>
+	<body>
+		<form name="send_msg" id="send_msg">
+			<div class="container">
+				<div class="sub_container">
+					<div class="send_msg">
+						<label>Send message</label>
+					</div>
+					<div class="left_div">
+						<div class="box_sub">
+							<label for="box_text">Subject</label>
+						</div>
+						<div class="box_div">
+							<input type="text" id="box_text" name="box_text" value="Dialog Box- Screens" autofocus="autofocus" class="subject_text"/>
+						</div>
+						<div class="msg_div">
+							<label for="message_text">Message</label>
+						</div>
+						<div class="type_msg">
+							<input type="text" name="message_text" id="message_text" class="message_text"/>
+						</div>
+						<div class="mail_chk">
+							<div class="send_chk1">
+								<input type="checkbox" name="send_chk" id="send_chk" value="copy_myself"/>
+								<label for="send_chk" class="send_copy">Send a copy to myself</label> 
+							</div>
+							<div class="send_chk2">
+								<input type="checkbox" name="email_chk" id="email_chk" value="email" class="frm_chk"/>
+								<label for="email_chk" class="send_copy">Paste the item itself into the email</label> 
+							</div>
+						</div>
+					</div>
+					<div class="right_div">
+						<div class="recipients_div">
+							<label class="recip_left">Recipients</label>
+							<div class="recip_right">
+								<span class="select_color">Select</span>
+								<span class="allone_color">all - none</span>
+							</div>
+						</div>
+						<hr/>
+						<div class="img_div">
+							<div class="prem_photo"></div>
+							<div class="div_box2">
+								<label>Prem.Maurya@ucertify...</label>
+							</div>
+							<div class="div_box3">
+								<input type="checkbox" name="prem_chk" id="prem_chk" value="prem_maurya" class="float_chk" checked="checked"/>
+							</div>
+						</div>
+						<hr/>
+						<div class="img_div">
+							<div class="avinash_photo"></div>
+							<div class="div_box2">
+								<label>Avinash Dubey</label>
+							</div>
+							<div class="div_box3">
+								<input type="checkbox" name="avinash_chk" id="avinash_chk" value="avinash" class="float_chk" checked="checked"/>
+							</div>
+						</div>
+						<hr/>
+						<div class="img_div">
+							<div class="prem_photo"></div>
+							<div class="div_box2">
+								<label>pete@ucertify.com</label>
+							</div>
+							<div class="div_box3">
+								<input type="checkbox" name="pete_chk" id="pete_chk" value="pete" class="float_chk" checked="checked"/>
+							</div>
+						</div>
+						<hr/>
+					</div> 
+					<div class="div_btn">
+						<button type="button" name="send_btn" id="send_btn" class="send_btn">Send</button>
+						<button type="button" name="cancel_btn" id="cancel_btn" class="cancel_btn">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

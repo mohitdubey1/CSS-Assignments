@@ -1,0 +1,244 @@
+  html, body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 100%;
+  font-size: 13px;
+  color: #404040;
+  }
+.wrapper *,.logo_google,.account_box{
+	margin: auto;
+   }
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  }
+.google_footer {
+  position: absolute;
+  bottom: 0;
+  height: 35px;
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  overflow: hidden;
+  }
+.top_google{
+    height: 80px;
+	overflow: hidden;
+}
+.logo_google{
+	width: 116px;
+    height: 38px;
+    font: 40px Tw Cen MT;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    letter-spacing: -6.6px;
+}
+.text_e,.text_o{
+	color: #EA4335;
+}
+.text_g{
+	color: #4285F4;
+}
+.text_o1{
+	color: #FBBC05;
+}
+.text_l{
+	color: #34A853;
+}
+.account_box,.google_text{
+	width: 1281px;
+}
+.account_box{
+	height: 659px;
+}
+.google_text{
+	height: 109px;
+}
+.open_sans,.font_h2{
+    font-family: Segoe UI Light;
+}
+h1,.font_h2,button[type="button"],.create_link,.everything_google{
+	text-align: center;
+}
+h1{
+    font-size: 40px;
+    color: #555555;
+    font-weight: 300;
+    margin: 0 0 15px;
+	height: 66px;
+}
+.font_h2{
+	font-size: 20px;
+}
+.login_div{
+	height: 450px;
+	width: 356px;
+}
+.login_div a:hover,.footer_list a:hover{
+    text-decoration: underline;
+}
+.login_frm,.create_link,.create_account_para{
+	width: 354px;
+}
+.login_frm{
+    height: 318px;
+    width: 354px;
+    background: #F7F7F7;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F7F7F7 #E5E5E5 #B5B5B5;
+    -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px #CDCDCD;
+	-moz-box-shadow: 0 1px 1px #CDCDCD;
+	box-shadow: 0 1px 1px #CDCDCD;
+}
+.logo_user{
+	height: 161px;
+	width: 120px;
+	background: url('css_assignment3_image/user_logo.jpg') 6px 34px no-repeat;
+}
+.search_box,button[type="button"] {
+	width: 274px;
+}
+.search_box{
+	height: 120px;
+}
+input[type="email"] {
+    height: 42px;
+    font-size: 16px;
+	width: 256px;
+	padding: 0 8px 0;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	color: #404040;
+}
+input:focus { 
+    outline: none !important;
+    border-color: #4D90FE;
+	-webkit-box-shadow: 1px 1px 1px #CDCDCD inset;
+	-moz-box-shadow: 1px 1px 1px #CDCDCD inset;
+	box-shadow: 1px 1px 1px #CDCDCD inset;
+}
+input:hover{
+	outline: none !important;
+    border-color: #A0A0A0 #B9B9B9 #B9B9B9;
+	-webkit-box-shadow: 1px 1px 1px #EFEFEF inset;
+	-moz-box-shadow: 1px 1px 1px #EFEFEF inset;
+	box-shadow: 1px 1px 1px #EFEFEF inset;
+}
+button[type="button"],button:hover{
+    color: #fff;
+}
+button[type="button"] {
+	margin: 7px 0 0;
+	font-family: Arial, sans-serif;
+    font-size: 13px;
+	border: 1px solid #3079ED;
+    background: #4D90FE;
+    background: -webkit-linear-gradient(#4D90FE,#4787ED);
+	background: -moz-linear-gradient(#4D90FE,#4787ED);
+	background: linear-gradient(#4D90FE,#4787ED);
+	font-weight: 700;
+    height: 36px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+button:hover{
+	border: 1px solid #2F5BB7;
+    background: #357AE8;
+}
+button:active{
+	background: #357AE8;
+	-webkit-box-shadow: 0 1px 2px #3D73CB inset;
+	-moz-box-shadow: 0 1px 2px #3D73CB inset;
+	box-shadow: 0 1px 2px #3D73CB inset;
+}
+button:active,button:hover{
+    background: -webkit-linear-gradient(#4D90FE,#357AE8);
+	background: -moz-linear-gradient(#4D90FE,#357AE8);
+	background: linear-gradient(#4D90FE,#357AE8);
+}
+.need_help,.drop_down_div{
+	float: right;
+}
+.need_help{
+	margin: 10px 0 0;
+}
+a{
+    color: #427fed;
+    text-decoration: none;
+}
+.create_account,.google_logo{
+	width: 360px;
+}
+.create_account{
+	height: 89px;
+	border-top: 24px solid transparent;
+}
+.create_link{
+	font-size: 14px;
+	margin: 0 3px 0 0;
+	height: 46px;
+}
+.create_account_para{
+	padding: 0 0 0 1px;
+}
+.everything_google{
+    color: #555;
+    font-size: 14px;
+	padding: 0 4px 0 0;
+}
+.google_logo{
+	background: url('css_assignment3_image/google_logo.png') 63px 10px no-repeat;
+	height: 40px;
+}
+.footer_menu{
+    font-size: 11px;
+    white-space: nowrap;
+	border-width: 7px 34px 0;
+	border-style: solid;
+	border-color: transparent;
+}
+.footer_list > div,.footer_list,.set_language{
+	float: left;
+}
+.footer_list > div{
+	margin: 0 9px 0 10px;
+}
+.footer_list{
+	margin: 5px 0 0;
+	width: 500px;
+}
+.footer_list a{
+    color: #737373;
+}
+select{
+	width: 174px;
+	height: 24px;
+	padding: 1px 0 0;
+}
+.drop_down option{
+    display: block;
+    padding: 0 2px 1px;
+    white-space: pre;
+    min-height: 1.2em;
+}
+.set_language{
+	height: 20px; 
+	width: 25px;
+	background: url('css_assignment3_image/universal_language_settings-21.png') 1px 0 no-repeat;
+}
+.drop_down_div{
+	width: 199px;
+	height: 25px;
+	margin: 0 10px 0 0;
+}

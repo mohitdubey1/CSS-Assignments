@@ -1,0 +1,355 @@
+*{
+	margin:	0;
+	padding: 0;
+}
+html{
+	overflow-y: hidden;
+}
+.menu_div{
+	height: 177px;
+}
+.right_menu,.india_text_div,.text_e,.google_btn_div > div,.tooltip,.tooltip_box{
+	float: right;
+}
+.right_menu > div,.sub_contenar > div,.google_btn_div,.footer_google>div,.google_app,.container,.google_hover,input[type=search]{
+	float: left;
+}
+.right_menu{
+	width: 27%;
+    border: 20px solid transparent;
+	margin: 2px 0 0 0;
+}
+.right_menu,.footer_google{
+	font: 13px Arial;
+}
+.google_app_div{
+    width: 42px;
+}
+.google_notification_div{
+	height: 30px;
+    width: 45px;
+}
+.google_notification{
+	background: url('css_assignment4_image/google_notification.jpg');
+    width: 30px;
+	bottom: 4px;
+}
+.google_account{
+	background: url('css_assignment4_image/google_account.jpg');
+	height: 10px;
+	width: 10px;
+    left: 4px;
+    top: 3px;
+}
+.mail_nav{
+    width: 39px;
+    margin: 1px 0 0 2px;
+}
+a{
+	text-decoration: none;
+	color: #4E4E4E;
+}
+a:hover{
+	text-decoration: underline;
+}
+.google_image{
+    width: 61px;
+}
+.mail_div{
+	font-size: 13px;
+}
+.mail_div,.google_image{
+    margin: 1px 0 0;
+}
+.left_div{
+	width: 398px;
+}
+.center_div{
+	height: 430px;
+	margin: auto;
+}
+.google_text_div{
+	width: 276px;
+	height: 123px;
+	left: 24%;
+	font: 104px Tw Cen MT;
+	letter-spacing: -17px;
+}
+.india_text_div{
+    font: 16px Arial;
+    color: #4285F4;
+    width: 215px;
+    bottom: 27px;
+    right: 7px;
+}
+.text_g1,.text_g2{
+	color: #4285F4;
+}
+.text_o1,.text_e{
+	color: #EA4335;
+}
+.text_o2{
+	color: #FBBC05;
+}
+.text_l{
+	color: #34A853;
+}
+.text_e{
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    right: 4px;
+}
+.type_textbox{
+	height: 72px;
+}
+.google_btn_div{
+	width: 424px;
+	height: 63px;
+}
+.search_search,.search_lucky{
+	height: 36px;
+	border: 1px solid #F2F2F2;
+	background: #F4F4F4;
+	font: bold 15.2px Calibri Light;
+	color: #757575;
+	letter-spacing: 0.3px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.search_search{
+	width: 126px;
+}
+.search_lucky{
+	width: 144px;
+}
+.btn_box1{
+	width: 134px;
+}
+input[type="submit"]:hover{
+	color: #000;
+	border-color: #D9D9D9;
+}
+input[type="submit"]:focus{
+	border: 1px solid #5090FA;
+}
+input[type="submit"]:focus,input[type=search]:focus{
+	outline: none !important;
+}
+.google_offered,.google_hover{
+	height: 50px;
+}
+.google_offered{
+    clear: both;
+}
+.google_language{
+	font: 16px Calibri Light;
+	margin: 0 0 0 1px;
+	letter-spacing: -0.7px;
+}
+.google_language>a{
+	font-size: 12px;
+	margin: 0 8px 0 0;
+	letter-spacing: 0.7px;
+	color: #1122CC;
+}
+.google_language>a:nth-of-type(1){
+	margin: 0 7px 0 5px;
+}
+.footer_google{
+	position: fixed;
+	border: 1px solid #E4E4E4;
+	bottom: 0;
+	right: 0;
+	background: #F2F2F2;
+}
+.fotter_left_div{
+	width: 82%;
+	margin: 12px 0 0 13px;
+}
+.fotter_left_div>a{
+	margin: 0 9px 0 18px;
+}
+.fotter_right_div{
+	margin: 12px 0 0 3px;
+}
+.fotter_right_div>a{
+	margin: 0 17px 0 10px;
+}
+.fotter_right_div>a , .fotter_left_div>a{
+	color: #666666;
+}
+.right_menu,.google_notification,.google_app{
+    height: 25px;
+}
+.google_app_div,.mail_nav,.google_image{
+    height: 15px;
+}
+.sub_contenar,.left_div{
+	height: 400px;
+}
+.sub_contenar{
+	width: 570px;
+    margin: auto;
+}
+.btn_box1,input[type=search],.tooltip{
+	height: 40px;
+}
+.footer_google,.fotter_left_div{
+	height: 39px;
+}
+.menu_div,.footer_google{
+	width: 100%;
+}
+.center_div,.type_textbox,.google_offered,input[type=search]{
+	width: 586px;
+}
+.india_text_div,.google_text_div,.google_account,.google_notification,.text_e,.google_app,.container,.rotade,.tooltip,.tooltip_box{
+    position: relative;
+}
+.google_app{
+    background: url('css_assignment4_image/google_app.jpg');
+    width: 20px;
+    bottom: 559px;
+    left: 95px;
+}
+.container{
+	width: 320px;
+	height: 496px;
+	border: 1px solid #CCCCCC;
+	-webkit-box-shadow: 0 2px 9px 3px #E8E8E8;
+	-moz-box-shadow: 0 2px 9px 3px #E8E8E8;
+	box-shadow: 0 2px 9px 3px #E8E8E8;
+    bottom: 516px;
+    left: 7px;
+}
+.container,.tooltip_box{
+	visibility: hidden;
+}
+.rotade,.sub_container1{
+	border-style: solid;
+}
+.rotade{
+	height: 12px;
+	width: 12px;
+	border-width: 1px 0 0 1px;
+	background: #fff;
+	border-color: #ccc;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+	left: 73px;
+	bottom: 7px;
+}
+.sub_container1{
+	width: 260px;
+	height: 399px;
+	border-width: 22px 29px;
+	border-color: transparent;
+}
+.sub_container1>div,.footer_div,.google_hover{
+	cursor: pointer;
+}
+.sub_container1>div{
+	height: 82px;
+	width: 82px;
+	display: inline-block;
+	margin: 0 0 13px 0;
+	border: 1px solid #fff;
+	}
+.sub_container1>div:hover{
+	border: 1px solid #E5E5E5;
+}
+.sub_container1 > div > div:first-child,.sub_container1 > div > div:last-child{
+	width: 84px;
+}
+.sub_container1 > div > div:first-child{
+	height: 62px;
+}
+.sub_container1 > div > div:last-child,.footer_div{
+	font: 14px Arial;
+	text-align: center;
+}
+.sub_container1 > div > div:last-child{
+	height: 21px;
+	padding: 3px 0 0;
+}
+.box1{
+	background: url('css_assignment4_image/my_accunt.png') 16px 2px no-repeat;
+}
+.box2{
+	background: url('css_assignment4_image/search.png') 13px 2px no-repeat;
+}
+.box3{
+	background: url('css_assignment4_image/google+.png') 17px 0  no-repeat;
+}
+.box4{
+	background: url('css_assignment4_image/mail.png') 11px 6px no-repeat;
+}
+.box5{
+	background: url('css_assignment4_image/calender.png') 19px 5px no-repeat;
+}
+.box6{
+	background: url('css_assignment4_image/drive.png') 12px 7px no-repeat;
+}
+.box7{
+	background: url('css_assignment4_image/doc.png') 16px 8px no-repeat;
+}
+.box8{
+	background: url('css_assignment4_image/sheets.png') 20px 9px no-repeat;
+}
+.box9{
+	background: url('css_assignment4_image/slides.png') 22px 8px no-repeat;
+}
+.box10{
+	background: url('css_assignment4_image/sites.png') 11px 10px no-repeat;
+}
+.box11{
+	background: url('css_assignment4_image/groups.png') 18px 7px no-repeat;
+}
+.box12{
+	background: url('css_assignment4_image/contacts.png') 20px 9px no-repeat;
+}
+.footer_div{
+	height: 29px;
+	width: 317px;
+	background: #F5F5F5;
+	padding: 11px 0 0 3px;
+}
+.google_hover{
+	width: 100px;
+	background: #000;
+	margin: 50px;
+}
+.google_app:hover+.container,.tooltip:hover+.tooltip_box{
+	visibility: visible;
+}
+.search_div{
+	height: 38px;	
+	width: 584px;
+	margin: 20px 0 0;
+}
+input[type=search]{
+	border: 1px solid #D9D9D9;
+}
+input[type=search]:hover{
+	border-color: #A0A0A0 #B9B9B9 #B9B9B9;
+}
+input[type=search]:focus{
+	border-color: #4D90FE;
+	padding: 0 0 0 10px;
+}
+.tooltip{
+    width: 29px;
+	background: url(css_assignment4_image/speech_bar.png) 6px 3px no-repeat;
+    bottom: 39px;
+	right: 4px;
+    cursor: pointer;
+}
+.tooltip_box{
+	height: 33px;
+	width: 110px;
+	background: url(css_assignment4_image/tool_tip_img.png) no-repeat;
+	left: 61px;
+}

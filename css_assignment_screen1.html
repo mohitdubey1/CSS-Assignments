@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Find and replace</title>
+		<link rel="stylesheet" type="text/css" href="css_assignment_screen1.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="close_div">
+				<label class="close">&times;</label>
+			</div>
+			<div class="sub_container">
+				<div class="find_rep">
+					<label>Find and replace</label>
+				</div>
+				<div class="find_text_div">
+					<div class="find_margin">
+						<label for="find_text">Find</label>
+					</div>
+					<input type="text" name="find_text" id="find_text" autofocus="autofocus"/>
+				</div>
+				<div class="find_text_div">
+					<div class="replace_margin">
+						<label for="replace_text">Replace with</label>
+					</div>
+					<input type="text" name="replace_text" id="replace_text"/>
+				</div>
+				<div class="mat_chk">
+					<div class="div_chk">
+						<div class="margin_chk">
+							<input type="checkbox" name="case_chk" id="case_chk" value="match_case"/>
+							<div class="match_label">
+								<label for="case_chk">Match case</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="type_button">
+					<div class="div_left">
+						<button type="button" name="replace_btn" id="replace_btn" class="replace_btn" disabled="disabled">Replace</button>
+					</div>
+					<div class="div_left">
+						<div class="width_btn"></div>
+					</div>
+					<div class="div_left">
+						<button type="button" name="replace_all_btn" id="replace_all_btn" class="replace_all_btn" disabled="disabled">Replace all</button>
+					</div>
+					<div class="div_left">
+						<div class="width_prew_btn"></div>
+					</div>
+					<div class="div_left">
+						<button type="button" name="prew_btn" id="prew_btn" class="prew_btn" disabled="disabled">&#60; &nbsp; Prew</button>
+					</div>
+					<div>
+						<button type="button" name="next_btn" id="next_btn" class="next_btn" disabled="disabled">Next &nbsp; &#62;</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
